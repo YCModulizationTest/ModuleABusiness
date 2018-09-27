@@ -1,2 +1,1 @@
-# ModuleABusiness
-A业务组件
+pod "ModuleABusiness"
