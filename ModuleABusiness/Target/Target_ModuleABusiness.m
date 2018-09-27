@@ -11,10 +11,10 @@
 @implementation Target_ModuleABusiness
 
 /// 获取组件A的VC
-- (ViewController *)Action_moduleAViewControllerWithTitle:(NSString*)title backgroundColor:(UIColor*)bgColor {
+- (ViewController *)Action_moduleAViewControllerWithParams:(NSDictionary*)params {
     ViewController *viewController = [[ViewController alloc] init];
-    viewController.title = title;
-    viewController.view.backgroundColor = bgColor;
+    viewController.title = [params objectForKey:@"title"];
+    viewController.view.backgroundColor = [params objectForKey:@"bgColor"];
     return viewController;
 }
 

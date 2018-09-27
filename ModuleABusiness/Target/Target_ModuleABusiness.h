@@ -12,7 +12,7 @@
 @interface Target_ModuleABusiness : NSObject
 
 /// 获取组件A的VC
-- (ViewController *)Action_moduleAViewControllerWithTitle:(NSString*)title backgroundColor:(UIColor*)bgColor;
+- (ViewController *)Action_moduleAViewControllerWithParams:(NSDictionary*)params;
 
 @end
 
