@@ -16,6 +16,7 @@
 		F331510D215C85BC00C92C3C /* ModuleABusinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F331510C215C85BC00C92C3C /* ModuleABusinessTests.m */; };
 		F3315118215C85BC00C92C3C /* ModuleABusinessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3315117215C85BC00C92C3C /* ModuleABusinessUITests.m */; };
 		F3315128215C888200C92C3C /* Target_ModuleABusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = F3315127215C888200C92C3C /* Target_ModuleABusiness.m */; };
+		F3FD4A1A215E08F100B1ED8D /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FD4A19215E08F100B1ED8D /* ModuleAViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		F3315119215C85BC00C92C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3315126215C888200C92C3C /* Target_ModuleABusiness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleABusiness.h; sourceTree = "<group>"; };
 		F3315127215C888200C92C3C /* Target_ModuleABusiness.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleABusiness.m; sourceTree = "<group>"; };
+		F3FD4A18215E08F100B1ED8D /* ModuleAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
+		F3FD4A19215E08F100B1ED8D /* ModuleAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		F33150F2215C85B900C92C3C /* ModuleABusiness */ = {
 			isa = PBXGroup;
 			children = (
+				F3FD4A17215E089E00B1ED8D /* BusinessA */,
 				F3315125215C886600C92C3C /* Target */,
 				F33150F3215C85B900C92C3C /* AppDelegate.h */,
 				F33150F4215C85B900C92C3C /* AppDelegate.m */,
@@ -143,6 +147,15 @@
 				F3315127215C888200C92C3C /* Target_ModuleABusiness.m */,
 			);
 			path = Target;
+			sourceTree = "<group>";
+		};
+		F3FD4A17215E089E00B1ED8D /* BusinessA */ = {
+			isa = PBXGroup;
+			children = (
+				F3FD4A18215E08F100B1ED8D /* ModuleAViewController.h */,
+				F3FD4A19215E08F100B1ED8D /* ModuleAViewController.m */,
+			);
+			path = BusinessA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 				F3315128215C888200C92C3C /* Target_ModuleABusiness.m in Sources */,
 				F33150F8215C85B900C92C3C /* ViewController.m in Sources */,
 				F3315103215C85BC00C92C3C /* main.m in Sources */,
+				F3FD4A1A215E08F100B1ED8D /* ModuleAViewController.m in Sources */,
 				F33150F5215C85B900C92C3C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

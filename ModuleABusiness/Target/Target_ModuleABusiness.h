@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ViewController.h"
+#import "ModuleAViewController.h"
 
 @interface Target_ModuleABusiness : NSObject
 
 /// 获取组件A的VC
-- (ViewController *)Action_moduleAViewControllerWithParams:(NSDictionary*)params;
+- (UIViewController *)Action_moduleAViewControllerWithParams:(NSDictionary*)params;
 
 @end
 

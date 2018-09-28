@@ -11,8 +11,8 @@
 @implementation Target_ModuleABusiness
 
 /// 获取组件A的VC
-- (ViewController *)Action_moduleAViewControllerWithParams:(NSDictionary*)params {
-    ViewController *viewController = [[ViewController alloc] init];
+- (UIViewController *)Action_moduleAViewControllerWithParams:(NSDictionary*)params {
+    ModuleAViewController *viewController = [[ModuleAViewController alloc] init];
     viewController.title = [params objectForKey:@"title"];
     viewController.view.backgroundColor = [params objectForKey:@"bgColor"];
     return viewController;
