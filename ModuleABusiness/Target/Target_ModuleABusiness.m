@@ -11,11 +11,13 @@
 @implementation Target_ModuleABusiness
 
 /// 获取组件A的VC
-- (UIViewController *)Action_moduleAViewControllerWithParams:(NSDictionary*)params {
-    ModuleAViewController *viewController = [[ModuleAViewController alloc] init];
-    viewController.title = [params objectForKey:@"title"];
-    viewController.view.backgroundColor = [params objectForKey:@"bgColor"];
-    return viewController;
+- (ModuleAViewController *)Action_moduleAViewControllerWithParams:(NSDictionary*)params {
+    ModuleAViewController *moduleAVC = [[ModuleAViewController alloc] init];
+    //传参：
+    moduleAVC.naviTitle = [params objectForKey:@"title"];
+    moduleAVC.bgColor = [params objectForKey:@"bgColor"];
+    moduleAVC.showText = [NSString stringWithFormat:@"Target_ModuleABusiness → %s 参数：%@",__func__,params.description];
+    return moduleAVC;
 }
 
 @end

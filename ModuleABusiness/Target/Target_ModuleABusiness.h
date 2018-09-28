@@ -11,8 +11,8 @@
 
 @interface Target_ModuleABusiness : NSObject
 
-/// 获取组件A的VC
-- (UIViewController *)Action_moduleAViewControllerWithParams:(NSDictionary*)params;
+/// 获取组件A的:ModuleAViewController
+- (ModuleAViewController *)Action_moduleAViewControllerWithParams:(NSDictionary*)params;
 
 @end
 

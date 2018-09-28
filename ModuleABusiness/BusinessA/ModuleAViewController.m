@@ -17,13 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"Module A";
+    self.title = _naviTitle?_naviTitle:@"Module A";
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(50, 100, 220, 100)];
-    label.text = @"This is Module A, This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,";
-    [self.view addSubview:label];
+    self.view.backgroundColor = _bgColor;
     
+    UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(50, 250, 220, 200)];
+    label1.numberOfLines = 0;
+    label1.text = _showText;
+    [self.view addSubview:label1];
     
+    UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(50, 100, 220, 100)];
+    label2.numberOfLines = 0;
+    label2.text = @"This is Module A, This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,This is Module A,";
+    [self.view addSubview:label2];
 }
 
 /*

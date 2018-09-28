@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ModuleABusiness"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "ModuleABusiness."
   s.description  = <<-DESC
                     this is ModuleABusiness
